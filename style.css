@@ -1,0 +1,123 @@
+body {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ 
+ h1 {
+   font-size: 32px;
+   text-align: center;
+   margin-top: 0;
+ }
+ 
+ .summary {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 20px;
+ }
+ 
+ .balance,
+ .income,
+ .expenses {
+   width: 30%;
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+ }
+ 
+ .balance h2,
+ .income h3,
+ .expenses h3 {
+   margin-top: 0;
+ }
+ 
+ .balance p,
+ .income p,
+ .expenses p {
+   margin-bottom: 0;
+   font-size: 24px;
+ }
+ 
+ .transactions {
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+ }
+ 
+ .transactions h2 {
+   margin-top: 0;
+ }
+ 
+ ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ li {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+ }
+ 
+ li .category {
+   font-weight: bold;
+ }
+ 
+ form {
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+ }
+ 
+ form h2 {
+   margin-top: 0;
+ }
+ 
+ form label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+ form input {
+   display: block;
+   width: 100%;
+   margin-bottom: 10px;
+   padding: 5px;
+   border: 1px solid #ccc;
+ }
+ 
+ form button {
+   background-color: #4CAF50;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+ }
+ 
+ form button:hover {
+   background-color: #3e8e41;
+ }
+ 
+ @media (max-width: 768px) {
+   .summary {
+     flex-wrap: wrap;
+   }
+   .balance,
+   .income,
+   .expenses {
+     width: 100%;
+     margin-bottom: 20px;
+   }
+ }
